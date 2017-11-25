@@ -6,7 +6,7 @@ public class Employer {
 	private String nom;
 	private String prenom;
 /*
- * création des deux savoir- faire "nom" et "prenom"	
+ * crÃ©ation des deux savoir- faire "nom" et "prenom"	
  */
    public String getNom(){
 	   return nom;
@@ -21,16 +21,16 @@ public class Employer {
 	   this.prenom = prenom;
    }
    /*
-    * création d'un constructeur sans paramètre
+    * crÃ©ation d'un constructeur sans paramÃ¨tre
     */
    public Employer(){
-	   super();
+	   super(); //Pourquoi Super();
    }
    /*
-    * création d'un constructeur avec deux paramètres ( "nom" & "prenom")
+    * crÃ©ation d'un constructeur avec deux paramÃ¨tres ( "nom" & "prenom")
     */
    public Employer(String nom, String prenom){
-	   super();
+	   super(); //Pourquoi Super()
 	   this.nom = nom;
 	   this.prenom = prenom;
    }
